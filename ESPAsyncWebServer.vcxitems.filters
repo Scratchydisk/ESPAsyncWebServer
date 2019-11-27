@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncEventSource.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\AsyncWebSocket.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\SPIFFSEditor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WebAuthentication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WebHandlers.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WebRequest.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WebResponses.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\WebServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncEventSource.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncJson.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncWebSocket.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\AsyncWebSynchronization.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\ESPAsyncWebServer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SPIFFSEditor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\StringArray.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WebAuthentication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WebHandlerImpl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\WebResponseImpl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)src\edit.htm" />
+  </ItemGroup>
+</Project>
